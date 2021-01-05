@@ -1,0 +1,116 @@
+/* @media only screen and (max-width: 600px){ */
+body{
+    background-color: rgb(150, 207, 240);
+    margin: 0;
+    padding: 0;
+
+}
+.container-cls{
+    background-image: linear-gradient(rgb(7, 3, 19), rgb(10, 44, 110));
+    height: 30rem;
+    margin-top: 5rem;
+    /* box-shadow:  5px 10px 18px #888888  5px 10px 18px #888888  5px 10px 18px #888888 5px 10px 18px #888888; */
+   border-radius: 2rem;
+   box-shadow:  5px 10px 8px 10px #888888;;
+   } 
+img{
+    height: 20%;
+    margin-left: 5.5rem;
+    
+}
+.text1{
+    color: aliceblue;
+    text-align: center;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+    font-size: 30px;
+}
+.text2{
+    color: aliceblue;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: .5rem;
+    font-size: 35px;
+}
+.text3{
+    color: aliceblue;
+    text-align: center;
+  
+   
+}
+.pass1{
+    margin-left: 5rem;
+    margin-bottom: 1rem;
+    background: none;
+    border: none;
+    border-bottom: white;
+}
+.pass2{
+    margin-left: 5rem;
+    background: none;
+    border: none;
+}
+.btn{
+    margin-left: 3rem;
+    color: aliceblue;
+    background-image:linear-gradient(rgb(141, 106, 238), rgb(65, 95, 153)) ;
+    margin-top: 2rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+@media only screen and (max-width: 640px ){
+    body{
+        background-image: linear-gradient(rgb(7, 3, 19), rgb(10, 44, 110));
+        
+
+    }
+    .container-cls{
+        /* background-image: linear-gradient(rgb(7, 3, 19), rgb(10, 44, 110)); */
+        box-shadow: none;
+        height: 100%;
+        margin-top: -5rem;
+    
+    }
+    img{
+        height: 18%;
+        margin-left: 3.8rem;
+    }
+    .text1{
+        color: aliceblue;
+        text-align: center;
+        margin-top: 5rem;
+        margin-bottom: 2rem;
+        font-size: 30px;
+    }
+    .text2{
+        color: aliceblue;
+        text-align: center;
+        margin-top: 2rem;
+        margin-bottom: .5rem;
+        font-size: 30px;
+    }
+    .text3{
+        color: aliceblue;
+        text-align: center;
+    }
+    .pass1{
+        margin-left: 4rem;
+        margin-bottom: 1rem;
+        background: none;
+        border: none;
+        border-bottom: white;
+    }
+    .pass2{
+        margin-left: 4rem;
+        background: none;
+        border: none;
+    }
+    .btn{
+        margin-left: 2.8rem;
+        color: aliceblue;
+        background-image:linear-gradient(rgb(141, 106, 238), rgb(65, 95, 153)) ;
+        margin-top: 2rem;
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
+}
